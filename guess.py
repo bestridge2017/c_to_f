@@ -1,6 +1,10 @@
 import random
+start = input('请决定随机数字开始值：')
+end = input('请决定随机数字范围结束值：')
+start = int(start)
+end = int(end)
 
-r = random.randint(1,100)
+r = random.randint(start,end)
 
 while True:
     g = input('请输入您猜想的数字：')
